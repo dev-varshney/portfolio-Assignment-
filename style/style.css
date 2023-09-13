@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#edf1fd ;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    }
+li{
+    list-style: none;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    border:1px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: 600;
+}
+button:hover
+{
+    background-color: white;
+    color:black;
+    border:ipx solid black;
+    
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 30 px;
+}
+nav ul{
+    display: flex;
+    align-items:center;
+    gap:100px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search{
+    display: flex;
+    gap: 35px;
+   
+}
+input{
+    padding: 4px 10px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-left-section h1{
+    font-size:40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-left-section h1 span{
+    color:rgb(18,155,155);
+    font-weight:900;
+    font-size: 2.5rem;
+}
+.hero-left-section p{
+    font-weight: 500;
+
+}
+.hero-left-section p span{
+    font-weight: 700;
+    color: rgb(18,155,155);
+    font-size: 25px;
+    
+}
+.hero-right-section{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    width: 40%;
+
+}
+.hero-right-section button{
+    display: flex;
+    align-items: center;
+    gap:30px;
+
+
+}
+.hero-right-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding:20px 0px ;
+    justify-content:space-around;
+}
+footer div{
+    font-weight: 600;
+}
+footer ul{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
